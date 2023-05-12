@@ -1,0 +1,91 @@
+<mxfile host="65bd71144e">
+    <diagram id="8ZSurVCKadN2OOoqex47" name="Page-1">
+        <mxGraphModel dx="2047" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="30" width="290" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="users_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="one to one" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="280" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="40" width="290" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="one to many / 1 user action ได้หลาย Order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="290" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="one" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="85" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="one" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="205" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="one" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="95" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="many" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="205" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="390" width="290" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="one to many / 1 user action ได้หลาย Order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="640" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="one" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="445" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="many" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="555" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="400" width="290" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="525" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="525" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="many to many / user 1คน กี่โปรดักก็ได้&amp;nbsp; &lt;br&gt;และ 1 โปรดัก อยู๋ในกี่ userก็ได้" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="465" y="645" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="many" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="455" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="many" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="565" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="ฝั่งไหนที่ มี&amp;nbsp; key อ้างอิงไป table อื่น&amp;nbsp; คือ ฝั่ง Many" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="745" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="order คือ ตาราง ที่&amp;nbsp; เกิดจากความสัมพันธิ์ ระหว่าง&lt;br&gt;&amp;nbsp;user. และ product&amp;nbsp; ตารางที่เกิดขึ้น&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="740" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="เมื่อมีความ สัมพันธิ์แบบ&amp;nbsp; Many to Many ก็จะต้องมีตาราง กลาง&amp;nbsp; โดยมี&amp;nbsp; key เชื่อมกัน 2 ที่" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="810" width="350" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
