@@ -1,0 +1,10 @@
+-- SELECT * FROM city -- จงหา city ทั้งหมด และจงหา country ทั้งหมด
+-- SELECT * FROM city WHERE District ="Dhaka" -- จงหา city ที่มี District เท่ากับ Dhaka
+-- SELECT * FROM city WHERE CountryCode ="ARG" or  CountryCode ="IDN" -- จงหาชื่อ city ที่มี CountryCode เป็น ARG หรือ IDN
+-- SELECT * FROM city WHERE CountryCode IN ('ARG','IDN', 'THA', 'ESP') -- จงหาชื่อ city ที่มี CountryCode เป็น ARG หรือ IDN หรือ THA หรือ ESP
+-- SELECT * FROM countrylanguage  WHERE Language = "English"  AND IsOfficial = "T" -- จงหาชื่อ CountryCode ที่มี Language เป็น English และ IsOfficial เป็น T
+-- SELECT * FROM country ORDER BY Name DESC -- จงหาชื่อ Country โดยเรียงลำดับจาก Z ไป หา A
+-- SELECT * FROM countrylanguage WHERE Percentage = 100 -- จงหา % ของภาษาที่ใช้มากสุดว่าเป็นภาษาอะไรและกี่ %
+-- SELECT DISTINCT  Language FROM countrylanguage -- จงหาชื่อภาษาที่แตกต่างกันทั้งหมด
+-- SELECT DISTINCT District FROM city WHERE CountryCode = "NLD"   -- จงหา District ที่แตกต่างกันทั้งหมดโดยที่ CountryCode เท่ากับ NLD
+-- SELECT * FROM city ORDER BY id DESC LIMIT 50 -- จงหา City ทั้งหมดโดยเรียงลำดับจาก Z-A และให้ดึงข้อมูลมาแค่ 50 อันแรก
